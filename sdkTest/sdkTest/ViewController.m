@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "Person.h"
 #import <HuayunCallAPI/HuayunCallAPI.h>
 @interface ViewController ()
 
@@ -19,6 +19,7 @@
     
     [super viewDidLoad];
    
+    Person * p = [[Person alloc]init];
     [HYCall shareCall];
 }
 
