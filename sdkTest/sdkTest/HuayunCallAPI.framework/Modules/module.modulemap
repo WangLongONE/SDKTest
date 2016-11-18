@@ -1,0 +1,6 @@
+framework module HuayunCallAPI {
+  umbrella header "HuayunCallAPI.h"
+
+  export *
+  module * { export * }
+}
