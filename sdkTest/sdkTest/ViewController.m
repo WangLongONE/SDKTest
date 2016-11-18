@@ -19,7 +19,7 @@
     
     [super viewDidLoad];
    
-    Person * p = [[Person alloc]init];
+    int a = 0 ;
     [HYCall shareCall];
 }
 
