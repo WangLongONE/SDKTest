@@ -15,6 +15,7 @@
 		5B44CD571DDC523B00C288C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B44CD551DDC523B00C288C9 /* LaunchScreen.storyboard */; };
 		5B44CD701DDD562800C288C9 /* MySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5B44CD6E1DDD562800C288C9 /* MySDK.bundle */; };
 		5B6653CE1DDDC70F00743B6A /* HuayunCallAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6653CD1DDDC70F00743B6A /* HuayunCallAPI.framework */; };
+		5B75A26C1DDE9B1C00C5351C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B75A26B1DDE9B1C00C5351C /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		5B44CD581DDC523B00C288C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B44CD6E1DDD562800C288C9 /* MySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MySDK.bundle; sourceTree = "<group>"; };
 		5B6653CD1DDDC70F00743B6A /* HuayunCallAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HuayunCallAPI.framework; sourceTree = "<group>"; };
+		5B75A26A1DDE9B1C00C5351C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5B75A26B1DDE9B1C00C5351C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				5B44CD4B1DDC523B00C288C9 /* AppDelegate.m */,
 				5B44CD4D1DDC523B00C288C9 /* ViewController.h */,
 				5B44CD4E1DDC523B00C288C9 /* ViewController.m */,
+				5B75A26A1DDE9B1C00C5351C /* Person.h */,
+				5B75A26B1DDE9B1C00C5351C /* Person.m */,
 				5B44CD501DDC523B00C288C9 /* Main.storyboard */,
 				5B44CD531DDC523B00C288C9 /* Assets.xcassets */,
 				5B44CD551DDC523B00C288C9 /* LaunchScreen.storyboard */,
@@ -175,6 +180,7 @@
 			files = (
 				5B44CD4F1DDC523B00C288C9 /* ViewController.m in Sources */,
 				5B44CD4C1DDC523B00C288C9 /* AppDelegate.m in Sources */,
+				5B75A26C1DDE9B1C00C5351C /* Person.m in Sources */,
 				5B44CD491DDC523B00C288C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
